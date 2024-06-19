@@ -1,0 +1,138 @@
+main {
+    align-items: center;
+    justify-content: center;
+    width: 67.5%;
+    margin:  50px auto;
+}
+
+.Intro {
+    display: flex;
+    margin: auto;
+}
+
+.pfp {
+    margin: 20px ;
+}
+
+.pfp .Picture {
+    overflow:auto;
+    background-color: #14b860;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px #5aa87f;
+    width: 20rem;
+}
+
+.pfp .Picture img {
+    width: 100%;
+    max-width: 512px;
+}
+
+.Self {
+    padding: 20px;
+    color: #E8EBF7;
+    margin: auto;
+}
+
+.Self h2 {
+    font-size: 2.5rem;
+    padding: 10px 0px -3px 0px;
+    text-align: center;
+    color: #14b860;
+}
+
+.Self h4 {
+    font-size: 0.9rem;
+    text-align: center;
+    font-style: italic;
+    margin: -3px 0px 0px 0px;
+    font-weight: lighter;
+}
+
+.Self p {
+    text-align: justify;
+    font-size: 1.3rem;
+    margin: 20px;
+}
+
+.clicks {
+    margin: auto;
+}
+
+.btn_list {  
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 20px;
+}
+
+.download_button{
+    margin: 0px 50px;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+    background-color: transparent;
+    border: 3px solid #14b860;
+    color:#E8EBF7;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0%;
+}
+
+.download_button:hover{
+    border: 3px solid #E8EBF7;
+    background-color: #14b8616e;
+    box-shadow: 0px 5px 5px #E8EBF7;
+}
+
+.dlimg {
+    width: 1.3rem;
+    margin-left: -5px;
+    margin-bottom: -3px;
+}
+
+
+.fa-brands {
+    padding: 1.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 20px;
+    border: 3px solid #E8EBF7;
+
+    color: #14b860;
+  }
+
+.fa-linkedin {
+    margin-left: 3.5rem;
+}
+
+.fa-brands:hover {
+    border: 3px solid #14b860;
+    color: #E8EBF7;
+    box-shadow: 0px 5px 5px #14b860;
+}
+
+@media (max-width: 1100px) {
+    main {
+        width: 75%;
+    }
+    .Intro {
+        flex-direction: column; /* Change this to column */
+        align-items: center; /* Center the items */
+    }
+
+    .pfp, .Self {
+        margin: 10px 0; /* Optional: Adjust margins for better spacing */
+    }
+}
+
+@media (max-width: 570px){
+    main {
+        width: 85%;
+    }
+
+}
+
+
