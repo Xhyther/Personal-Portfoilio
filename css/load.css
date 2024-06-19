@@ -78,3 +78,11 @@
   }
 }
 
+
+@media (max-width: 700px) {
+
+  .ring {
+  width:15.2rem;
+  height:15.2rem;
+  }
+}
