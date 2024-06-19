@@ -159,6 +159,7 @@ main {
 
     .pfp .Picture {
         overflow:auto;
+        margin-top: -2rem;
         background-color: #14b860;
         border-radius: 50%;
         box-shadow: 0px 0px 30px #5aa87f;
