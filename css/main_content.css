@@ -61,12 +61,12 @@ main {
 .btn_list {  
     display: flex;
     align-items: center;
-    justify-content:flex-start;
+    justify-content:center;
     padding: 20px;
 }
 
 .download_button{
-    margin: 0px 50px;
+    margin: 20px;
     padding: 10px;
     justify-items: center;
     align-items: center;
@@ -104,17 +104,13 @@ main {
     color: #14b860;
   }
 
-.fa-linkedin {
-    margin-left: 3.5rem;
-}
-
 .fa-brands:hover {
     border: 3px solid #14b860;
     color: #E8EBF7;
     box-shadow: 0px 5px 5px #14b860;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1024px) {
     main {
         width: 75%;
     }
@@ -123,16 +119,56 @@ main {
         align-items: center; /* Center the items */
     }
 
-    .pfp, .Self {
+    .pfp .Self {
         margin: 10px 0; /* Optional: Adjust margins for better spacing */
     }
+
+
 }
 
-@media (max-width: 570px){
+@media (max-width: 700px){
     main {
-        width: 85%;
+        width: 100%;
     }
 
+    .btn_list {
+        margin-top: -10%; 
+    }
+        
+    .Self h2 {
+        font-size: 2rem;
+    }
+
+    .Self p {
+        font-size: 1rem;
+    }
+
+    .btn_list{
+        display: flexbox;
+        flex-wrap: wrap;
+    }
+
+   
+
+    .fa-brands{
+        flex-direction: column;
+        margin: 10px 20px;
+    }
+
+
+
+    .pfp .Picture {
+        overflow:auto;
+        background-color: #14b860;
+        border-radius: 50%;
+        box-shadow: 0px 0px 30px #5aa87f;
+        width: 15rem;
+    }
+    
+    .pfp .Picture img {
+        width: 100%;
+        max-width: 512px;
+    }
+
+
 }
-
-
