@@ -10,7 +10,7 @@
 }
 body {
     background-color: #060a29;
-    background-image: radial-gradient(circle at 1px 1px, #14b860 1px, transparent 0);
+    /**background-image: radial-gradient(circle at 1px 1px, #14b860 1px, transparent 0);*/
     background-size: 40px 40px;
     background-position: -20px -20px;
 }
